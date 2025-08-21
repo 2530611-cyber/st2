@@ -12,5 +12,5 @@ cookie_data = {'오늘 당신의 미소가 누군가의 하루를 밝힐 거예�
 
 
 if st.button("포춘 쿠키를 뽑아보세요"):
-    cookie = random.choice(cookie_data)
+    cookie = random.randint(cookie_data)
     st.write(cookie)
